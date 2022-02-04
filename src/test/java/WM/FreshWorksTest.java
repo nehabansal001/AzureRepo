@@ -64,6 +64,7 @@ public class FreshWorksTest {
 
 	@Test(priority = 2)
 	public void freshWorksTitleTest() {
+		System.out.println("Running..........");
 		System.out.println(driver.getTitle());
 		assertEquals(driver.getTitle(), "Freshworks | Modern and Easy Customer and Employee Experience Software");
 	}
